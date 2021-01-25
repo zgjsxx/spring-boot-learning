@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.it</groupId>
-		<artifactId>myspringboot</artifactId>
+		<artifactId>springboot-multi-module-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 

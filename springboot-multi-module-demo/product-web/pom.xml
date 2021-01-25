@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.it</groupId>
-		<artifactId>myspringboot</artifactId>
+		<artifactId>springboot-multi-module-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -34,6 +34,10 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	<!--
+		java 多模块项目 仅仅需要在启动类所在的模块添加打包插件即可
+		不要在父类添加打包插件，因为那样会导致全部子模块都使用spring-boot-maven-plugin的方式来打包
+	-->
 
 	<build>
 		<plugins>
