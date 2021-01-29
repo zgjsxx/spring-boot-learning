@@ -20,3 +20,6 @@ This project will show how to use springboot to develop a simple restful API wit
 # 5.springboot-docker
 
 This project will show how to turn your springboot application into a docker image.
+
+# 6.springboot-mock
+This project will show how to test your springboot application with mock framework
