@@ -1,0 +1,27 @@
+In es, create index
+PUT /location_map
+
+
+In postman
+http://127.0.0.1:8080/profiles
+post body
+{
+    "firstName":"Bob",
+    "lastName":"lab",
+    "technologies":[
+        {
+            "name":"math",
+            "yearOfExperience":"2 year"
+        }
+    ],
+    "localtions":{
+        "lat":"123",
+        "lon":"123"
+    },
+    "emails":["119160524@qq.com"]
+
+}
+
+
+https://github.com/spati-java/spring-boot-java-highlevel-rest-client-elasticsearch
+https://medium.com/@sourav.pati09/how-to-use-java-high-level-rest-client-with-spring-boot-to-talk-to-aws-elasticsearch-2b6106f2e2c
